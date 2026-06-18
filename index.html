@@ -1446,7 +1446,12 @@
               <img
                 data-src="./wp-content/pictures/album/My New Project_01.jpg"
                 alt=""
-                style="object-position: center"
+                style="
+                  width: 100%;
+                  height: 100%;
+                  object-fit: contain;
+                  object-position: center;
+                "
                 class="lazyload"
               />
             </a>
@@ -1460,7 +1465,12 @@
               <img
                 data-src="./wp-content/pictures/album/My New Project_02.jpg"
                 alt=""
-                style="object-position: center"
+                style="
+                  width: 100%;
+                  height: 100%;
+                  object-fit: contain;
+                  object-position: center;
+                "
                 class="lazyload"
               />
             </a>
@@ -1474,7 +1484,12 @@
               <img
                 data-src="./wp-content/pictures/album/My New Project_03.jpg"
                 alt=""
-                style="object-position: center"
+                style="
+                  width: 100%;
+                  height: 100%;
+                  object-fit: contain;
+                  object-position: center;
+                "
                 class="lazyload"
               />
             </a>
@@ -1488,7 +1503,12 @@
               <img
                 data-src="./wp-content/pictures/album/My New Project_04.jpg"
                 alt=""
-                style="object-position: center"
+                style="
+                  width: 100%;
+                  height: 100%;
+                  object-fit: contain;
+                  object-position: center;
+                "
                 class="lazyload"
               />
             </a>
@@ -1502,7 +1522,12 @@
               <img
                 data-src="./wp-content/pictures/album/My New Project_05.jpg"
                 alt=""
-                style="object-position: center"
+                style="
+                  width: 100%;
+                  height: 100%;
+                  object-fit: contain;
+                  object-position: center;
+                "
                 class="lazyload"
               />
             </a>
@@ -1516,7 +1541,31 @@
               <img
                 data-src="./wp-content/pictures/album/My New Project_06.jpg"
                 alt=""
-                style="object-position: center"
+                style="
+                  width: 100%;
+                  height: 100%;
+                  object-fit: contain;
+                  object-position: center;
+                "
+                class="lazyload"
+              />
+            </a>
+          </div>
+
+          <div class="swiper-slide">
+            <a
+              href="./wp-content/pictures/album/My New Project_07.jpg"
+              data-fancybox="gallery"
+            >
+              <img
+                data-src="./wp-content/pictures/album/My New Project_07.jpg"
+                alt=""
+                style="
+                  width: 100%;
+                  height: 100%;
+                  object-fit: contain;
+                  object-position: center;
+                "
                 class="lazyload"
               />
             </a>
@@ -1530,7 +1579,12 @@
               <img
                 data-src="./wp-content/pictures/album/My New Project_08.jpg"
                 alt=""
-                style="object-position: center"
+                style="
+                  width: 100%;
+                  height: 100%;
+                  object-fit: contain;
+                  object-position: center;
+                "
                 class="lazyload"
               />
             </a>
@@ -1544,7 +1598,12 @@
               <img
                 data-src="./wp-content/pictures/album/My New Project_09.jpg"
                 alt=""
-                style="object-position: center"
+                style="
+                  width: 100%;
+                  height: 100%;
+                  object-fit: contain;
+                  object-position: center;
+                "
                 class="lazyload"
               />
             </a>
@@ -1558,7 +1617,12 @@
               <img
                 data-src="./wp-content/pictures/album/My New Project_10.jpg"
                 alt=""
-                style="object-position: center"
+                style="
+                  width: 100%;
+                  height: 100%;
+                  object-fit: contain;
+                  object-position: center;
+                "
                 class="lazyload"
               />
             </a>
@@ -1570,23 +1634,119 @@
     </section>
     <!-- END ALBUM -->
 
-    <section id="video">
+    <!-- WISHES -->
+    <section id="wishes" class="section-message">
       <div class="container">
-        <h2 class="section-title">Wedding Invitation</h2>
-      </div>
+        <div class="section-heading">
+          <p class="subtitle">Mỗi lời chúc là một niềm hạnh phúc</p>
 
-      <div class="video-container">
-        <div class="video-list">
-          <div class="video-item">
-            <img
-              data-src="https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/card.webp"
-              alt=""
-              class="lazyload"
-            />
+          <h2 class="section-title">Lời Chúc Mừng</h2>
+
+          <div class="heading-divider">
+            <span></span>
+            <svg
+              width="22"
+              height="22"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 21s-6.716-4.297-9.428-7.01C.86 12.278.5 10.97.5 9.74.5 6.86 2.86 4.5 5.74 4.5c1.69 0 3.27.82 4.26 2.18L12 8.6l1.999-1.92c.99-1.36 2.57-2.18 4.26-2.18 2.88 0 5.24 2.36 5.24 5.24 0 1.23-.36 2.538-2.072 4.25C18.716 16.703 12 21 12 21z"
+              />
+            </svg>
+            <span></span>
+          </div>
+        </div>
+
+        <div class="message-container">
+          <div class="form-message">
+            <h3 class="form-title uk-margin-remove">
+              Gửi lời chúc đến chúng tôi
+            </h3>
+
+            <p class="form-subtitle">
+              Để lại đôi lời yêu thương dành cho cô dâu &amp; chú rể nhé!
+            </p>
+
+            <form id="wish-form">
+              <div class="input-group">
+                <label for="wish-name">Họ và tên</label>
+                <input
+                  type="text"
+                  id="wish-name"
+                  class="input-text"
+                  placeholder="Nhập họ và tên của bạn"
+                  required
+                />
+              </div>
+
+              <div class="input-group">
+                <label for="wish-content">Lời chúc</label>
+                <textarea
+                  id="wish-content"
+                  class="input-text"
+                  rows="4"
+                  placeholder="Gửi lời chúc phúc đến cô dâu & chú rể..."
+                  style="width: 100%; box-sizing: border-box"
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="wedding-submit" id="wish-submit">
+                <i class="ri-heart-3-fill"></i>
+                Gửi lời chúc
+              </button>
+            </form>
+          </div>
+
+          <div class="list_message" id="wish-list">
+            <div class="message-item">
+              <div class="messeger-header">
+                <span class="message-avatar">M</span>
+                <span class="message-info">
+                  <span class="user_message">Minh Anh</span>
+                  <span class="message-time">20/07/2026</span>
+                </span>
+              </div>
+              <p class="message-des uk-margin-remove">
+                Chúc Trọng Đạt và Dương Nhàn trăm năm hạnh phúc, mãi mãi yêu
+                thương và đồng hành cùng nhau trên mọi nẻo đường!
+              </p>
+            </div>
+
+            <div class="message-item">
+              <div class="messeger-header">
+                <span class="message-avatar">G</span>
+                <span class="message-info">
+                  <span class="user_message">Gia đình Cô Lan</span>
+                  <span class="message-time">14/07/2026</span>
+                </span>
+              </div>
+              <p class="message-des uk-margin-remove">
+                Chúc hai con sớm "sinh con đàn cháu đống", gia đình luôn ấm êm,
+                hạnh phúc bên nhau.
+              </p>
+            </div>
+
+            <div class="message-item">
+              <div class="messeger-header">
+                <span class="message-avatar">H</span>
+                <span class="message-info">
+                  <span class="user_message">Hoàng Phúc</span>
+                  <span class="message-time">05/07/2026</span>
+                </span>
+              </div>
+              <p class="message-des uk-margin-remove">
+                Chúc mừng hai bạn! Chúc cho tình yêu của hai bạn luôn ngọt ngào
+                như ngày đầu mới yêu.
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </section>
+    <!-- END WISHES -->
 
     <!-- THANK YOU -->
     <section
@@ -1654,6 +1814,109 @@
           document.body.style.overflow = "auto";
         });
       }
+
+      const API_URL =
+        "https://script.google.com/macros/s/AKfycbyPgBqDz3upZDNZ7s3bwtRpw2OH4khwg2TUEZKzuqQoxk0fdyj8e-CF9DdT3wH6Bkub0w/exec"; // thay vào đây
+
+      const wishForm = document.getElementById("wish-form");
+      const wishList = document.getElementById("wish-list");
+      const wishSubmitBtn = document.getElementById("wish-submit");
+
+      // Dùng fetch với mode no-cors sẽ không đọc được response
+      // Giải pháp: thêm ?callback vào URL để dùng JSONP cho GET
+      async function getWishes() {
+        const res = await fetch(API_URL + "?t=" + Date.now()); // chống cache
+        const data = await res.json();
+        return data.wishes || [];
+      }
+
+      async function postWish(wish) {
+        await fetch(API_URL, {
+          method: "POST",
+          mode: "no-cors", // bỏ qua CORS cho POST
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(wish),
+        });
+      }
+
+      function renderWishItem(wish) {
+        const wishItem = document.createElement("div");
+        wishItem.className = "message-item";
+        wishItem.innerHTML = `
+      <div class="messeger-header">
+        <span class="message-avatar"></span>
+        <span class="message-info">
+          <span class="user_message"></span>
+          <span class="message-time"></span>
+        </span>
+      </div>
+      <p class="message-des uk-margin-remove"></p>
+    `;
+        wishItem.querySelector(".message-avatar").textContent = wish.name
+          .charAt(0)
+          .toUpperCase();
+        wishItem.querySelector(".user_message").textContent = wish.name;
+        wishItem.querySelector(".message-time").textContent = wish.date;
+        wishItem.querySelector(".message-des").textContent = wish.content;
+        return wishItem;
+      }
+
+      async function loadWishes() {
+        wishList.innerHTML = "<p>Đang tải...</p>";
+        try {
+          const wishes = await getWishes();
+          wishList.innerHTML = "";
+          wishes.forEach((wish) => wishList.appendChild(renderWishItem(wish)));
+        } catch (err) {
+          wishList.innerHTML = "<p>Không thể tải lời chúc.</p>";
+          console.error(err);
+        }
+      }
+
+      if (wishForm) {
+        wishForm.addEventListener("submit", async (e) => {
+          e.preventDefault();
+
+          const name = document.getElementById("wish-name").value.trim();
+          const content = document.getElementById("wish-content").value.trim();
+          if (!name || !content) return;
+
+          const today = new Date();
+          const formattedDate = [
+            String(today.getDate()).padStart(2, "0"),
+            String(today.getMonth() + 1).padStart(2, "0"),
+            today.getFullYear(),
+          ].join("/");
+
+          const newWish = { name, content, date: formattedDate };
+          wishSubmitBtn.disabled = true;
+
+          try {
+            await postWish(newWish);
+
+            wishList.insertBefore(renderWishItem(newWish), wishList.firstChild);
+            wishList.scrollTop = 0;
+            wishForm.reset();
+
+            wishSubmitBtn.classList.add("success");
+            wishSubmitBtn.textContent = "Đã gửi!";
+            setTimeout(() => {
+              wishSubmitBtn.classList.remove("success");
+              wishSubmitBtn.textContent = "Gửi lời chúc";
+              wishSubmitBtn.disabled = false;
+            }, 2000);
+          } catch (err) {
+            console.error("Lỗi khi gửi:", err);
+            wishSubmitBtn.textContent = "Gửi thất bại, thử lại!";
+            setTimeout(() => {
+              wishSubmitBtn.textContent = "Gửi lời chúc";
+              wishSubmitBtn.disabled = false;
+            }, 2000);
+          }
+        });
+      }
+
+      loadWishes(); //end
 
       document.addEventListener("DOMContentLoaded", () => {
         const videos = document.querySelectorAll("video");
