@@ -199,6 +199,8 @@
 }
 
 .input-text {
+    width: 100%;
+    box-sizing: border-box;
     border: 1px solid rgba(109, 62, 40, .25);
     padding: 15px 20px;
     border-radius: 12px;
@@ -221,6 +223,8 @@
 }
 
 textarea.input-text {
+    max-width: 100%;
+    margin: 0;
     resize: vertical;
     text-align: left;
     min-height: 180px;
